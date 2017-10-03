@@ -1,0 +1,8 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.jboss.windup.web</groupId>
+    <artifactId>windup-web-keycloak-theme</artifactId>
+    <version>4.1.0-SNAPSHOT</version>
+
+</project>
