@@ -5,6 +5,51 @@
     <artifactId>windup-web-keycloak-theme</artifactId>
     <version>4.1.0-SNAPSHOT</version>
     
+    <name>Windup Keycloak Theme</name>
+
+    <url>http://windup.jboss.org</url>
+
+    <licenses>
+        <license>
+            <name>Eclipse Public License version 1.0</name>
+            <url>http://www.eclipse.org/legal/epl-v10.html</url>
+        </license>
+    </licenses>
+    
+   <prerequisites>
+      <maven>3.2</maven>
+   </prerequisites>
+   
+    <scm>
+        <tag>master</tag>
+        <url>http://github.com/windup/windup-web-keycloak-theme</url>
+        <connection>scm:git:https://github.com/windup/windup-web-keycloak-theme.git</connection>
+        <developerConnection>scm:git:git@github.com:windup/windup-web-keycloak-theme.git</developerConnection>
+    </scm>
+
+    <organization>
+        <name>JBoss by Red Hat</name>
+        <url>http://www.jboss.org</url>
+    </organization>
+    
+    <issueManagement>
+        <system>JBoss Jira</system>
+        <url>https://issues.jboss.org/browse/WINDUP</url>
+    </issueManagement>
+    
+    <mailingLists>
+        <mailingList>
+            <name>Windup Rules Development and Usage</name>
+            <post>windup-users@lists.jboss.org</post>
+            <archive>http://lists.jboss.org/pipermail/windup-users/</archive>
+        </mailingList>
+        <mailingList>
+            <name>Windup Core Development</name>
+            <post>windup-dev@lists.jboss.org</post>
+            <archive>http://lists.jboss.org/pipermail/windup-dev/</archive>
+        </mailingList>
+    </mailingLists>
+    
     <distributionManagement>
       <snapshotRepository>
         <id>ossrh</id>
