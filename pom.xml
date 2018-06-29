@@ -4,5 +4,16 @@
     <groupId>org.jboss.windup.web</groupId>
     <artifactId>windup-web-keycloak-theme</artifactId>
     <version>4.1.0-SNAPSHOT</version>
+    
+    <distributionManagement>
+      <snapshotRepository>
+        <id>ossrh</id>
+        <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      </snapshotRepository>
+      <repository>
+        <id>ossrh</id>
+        <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      </repository>
+    </distributionManagement>
 
 </project>
