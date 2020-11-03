@@ -10,7 +10,7 @@
     
     <groupId>org.jboss.windup.web</groupId>
     <artifactId>windup-web-keycloak-theme</artifactId>
-    <version>5.4.0-SNAPSHOT</version>
+    <version>​5.​4.​0.​Fi​na​l</version>
     
     <name>Windup Keycloak Theme</name>
 
@@ -28,7 +28,7 @@
    </prerequisites>
    
     <scm>
-        <tag>master</tag>
+        <tag>​5.​4.​0.​Fi​na​l</tag>
         <url>http://github.com/windup/windup-web-keycloak-theme</url>
         <connection>scm:git:https://github.com/windup/windup-web-keycloak-theme.git</connection>
         <developerConnection>scm:git:git@github.com:windup/windup-web-keycloak-theme.git</developerConnection>
