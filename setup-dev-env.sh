@@ -16,6 +16,10 @@ xmlstarlet ed \
 workspace/keycloak-*/standalone/configuration/standalone.xml
 
 cp -r workspace/keycloak-*/themes/* src/main/resources/theme/
+
+cp src/main/resources/theme/windup/login/login_required.theme.properties src/main/resources/theme/windup/login/theme.properties
 cp src/main/resources/theme/mta/login/login_required.theme.properties src/main/resources/theme/mta/login/theme.properties
+cp src/main/resources/theme/tackle/login/login_required.theme.properties src/main/resources/theme/tackle/login/theme.properties
+cp src/main/resources/theme/mtr/login/login_required.theme.properties src/main/resources/theme/mtr/login/theme.properties
 
 echo "You can start the server using ./workspace/keycloak-$KcVersion/bin/standalone.sh"

@@ -1,0 +1,28 @@
+{
+    "themes": [
+        {
+            "name": "mta",
+            "types": [
+                "login"
+            ]
+        },
+        {
+            "name": "mtr",
+            "types": [
+                "login"
+            ]
+        },
+        {
+            "name": "tackle",
+            "types": [
+                "login"
+            ]
+        },
+        {
+            "name": "windup",
+            "types": [
+                "login"
+            ]
+        }
+    ]
+}

@@ -1,7 +1,10 @@
 workspace/
 src/main/resources/theme/*
-src/main/resources/theme/mta/login/theme.properties
+src/main/resources/theme/**/login/theme.properties
+!src/main/resources/theme/windup
 !src/main/resources/theme/mta
+!src/main/resources/theme/tackle
+!src/main/resources/theme/mtr
 
 target/*
 
