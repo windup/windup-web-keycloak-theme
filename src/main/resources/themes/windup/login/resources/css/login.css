@@ -13,10 +13,11 @@
 }
 
 #kc-logo-wrapper {
-    background: url("../img/logo.png") no-repeat;
+    background: url("../img/logo.svg") no-repeat;
+    background-size: auto 100%;
 
-    height: 55px;
-    width: 170px;
+    height: 40px;
+    width: 150px;
     right: 5%;
     top: 90%;
     position: absolute;
@@ -34,16 +35,16 @@
     margin-top: -14px;
 }
 
-#tackle-title {
+#windup-title {
     color: #FFFFFF;
 }
 
-#tackle-title strong {
+#windup-title strong {
     font-size: 40px;
     display: block;
 }
 
-#tackle-title span {
+#windup-title span {
     font-size: 30px;
     display: block;
     margin-top: -10px;
