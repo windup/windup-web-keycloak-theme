@@ -13,10 +13,10 @@
 }
 
 #kc-logo-wrapper {
-    background: url("../img/logo.svg") no-repeat;
+    background: url("../img/logo.png") no-repeat;
 
-    height: 40px;
-    width: 150px;
+    height: 55px;
+    width: 170px;
     right: 5%;
     top: 90%;
     position: absolute;
