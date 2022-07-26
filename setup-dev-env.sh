@@ -20,6 +20,5 @@ cp -r workspace/keycloak-*/themes/* src/main/resources/themes/
 cp src/main/resources/themes/windup/login/login_required.theme.properties src/main/resources/themes/windup/login/theme.properties
 cp src/main/resources/themes/mta/login/login_required.theme.properties src/main/resources/themes/mta/login/theme.properties
 cp src/main/resources/themes/tackle/login/login_required.theme.properties src/main/resources/themes/tackle/login/theme.properties
-cp src/main/resources/themes/mtr/login/login_required.theme.properties src/main/resources/themes/mtr/login/theme.properties
 
 echo "You can start the server using ./workspace/keycloak-$KcVersion/bin/standalone.sh"

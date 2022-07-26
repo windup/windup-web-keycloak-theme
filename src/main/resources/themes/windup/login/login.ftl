@@ -5,10 +5,10 @@
     <#elseif section = "header">
     ${msg("loginTitleHtml",(realm.displayNameHtml!''))}
     <#elseif section = "logo">
-        <span id="tackle-title">
+        <span id="windup-title">
             <p>
-                <strong class="visible-xs-inline">Tackle&nbsp;</strong>
-                <strong class="hidden-xs">Tackle Analysis</strong>
+                <strong class="visible-xs-inline">Windup&nbsp;</strong>
+                <strong class="hidden-xs">Windup</strong>
                 <span>Web Console</span>
             </p>
         </span>
@@ -69,11 +69,11 @@
         </#if>
     <#elseif section = "info">
         <p>
-            <strong class="welcome-help-text"> Welcome to Tackle Analysis Web Console. </strong>
+            <strong class="welcome-help-text"> Welcome to Windup Web Console. </strong>
         </p>
         <p>
-            Learn more about Tackle Analysis from the
-            <a href="https://tackle-docs.konveyor.io/">documentation</a>.
+            Learn more about Windup from the
+            <a href="https://windup.github.io/docs">documentation</a>.
         </p>
 
         <#if realm.password && realm.registrationAllowed && !usernameEditDisabled??>

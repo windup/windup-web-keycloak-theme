@@ -1,6 +1,6 @@
 window.onload = function() {
     document.getElementById('kc-form-login').style.visibility = 'hidden';
-    var parent = document.getElementById('tackle-title').parentNode;
+    var parent = document.getElementById('windup-title').parentNode;
 
     var infoElement = document.createElement("h1");
     infoElement.innerHTML = "Connecting...";
