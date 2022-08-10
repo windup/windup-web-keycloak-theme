@@ -4,6 +4,16 @@ Keycloak theme for the Windup project
 
 ## Development
 
+### Requisites
+
+- Install xmlstarlet:
+
+```shell
+sudo dnf install xmlstarlet
+```
+
+### Init dev environment
+
 Setup your dev environment executing:
 
 ```shell
